@@ -16,7 +16,7 @@ packages = c(
 
 for (pkg in packages) {
   if (!require(pkg, character.only = TRUE)) {
-    install.packages(pkg, repos = "https://cran.rstudio.com/", method = "libcurl")
+    install.packages(pkg, repos = "https://cran.rstudio.com/", method = "wget")
   } 
   library(pkg, character.only = TRUE)
 }
