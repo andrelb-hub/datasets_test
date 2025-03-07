@@ -8,30 +8,30 @@ gc()
 
 # INSTALL AND LOAD PACKAGES ####################################################
 
-# packages = c(
-#   'GetBCBData',
-#   'openxlsx',
-#   'tidyverse')
-# 
-# 
-# for (pkg in packages) {
-#   if (!require(pkg, character.only = TRUE)) {
-#     install.packages(pkg, repos = "https://cran.rstudio.com/", method = "libcurl")
-#   } 
-#   library(pkg, character.only = TRUE)
-# }
-
-# LOAD PACKAGES ################################################################
-
 packages = c(
   'GetBCBData',
   'openxlsx',
-  'tidyverse'
-  )
+  'tidyverse')
+
 
 for (pkg in packages) {
+  if (!require(pkg, character.only = TRUE)) {
+    install.packages(pkg, repos = "https://cran.rstudio.com/", method = "libcurl")
+  } 
   library(pkg, character.only = TRUE)
 }
+
+# LOAD PACKAGES ################################################################
+
+#packages = c(
+#  'GetBCBData',
+#  'openxlsx',
+#  'tidyverse'
+#  )
+
+#for (pkg in packages) {
+#  library(pkg, character.only = TRUE)
+#}
 
 # TIME CONTROL #################################################################
 
