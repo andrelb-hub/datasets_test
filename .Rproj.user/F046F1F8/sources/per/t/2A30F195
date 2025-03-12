@@ -3,7 +3,7 @@
     "path": "C:/Users/F0738707/OneDrive - Banco do Brasil S.A/_github/datasets/bacen/scripts/102_bacen_ETL_v01_download_simples-v6.R",
     "project_path": "bacen/scripts/102_bacen_ETL_v01_download_simples-v6.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "354508764",
     "contents": "",
     "dirty": false,
     "created": 1741289880653.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "22,0",
+        "cursorPosition": "1,2",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1741222705,
+    "lastKnownWriteTime": 1741366255,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1741222705,
+    "last_content_update": 1741366255382,
     "read_only": false,
     "read_only_alternatives": []
 }

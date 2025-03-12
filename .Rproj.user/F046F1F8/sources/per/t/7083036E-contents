@@ -23,15 +23,15 @@ gc()
 
 # LOAD PACKAGES ################################################################
 
-# packages = c(
-#   'GetBCBData',
-#   'openxlsx',
-#   'tidyverse'
-#   )
-# 
-# for (pkg in packages) {
-#   library(pkg, character.only = TRUE)
-# }
+packages = c(
+  'GetBCBData',
+  'openxlsx',
+  'tidyverse'
+  )
+
+for (pkg in packages) {
+  library(pkg, character.only = TRUE)
+}
 
 # TIME CONTROL #################################################################
 
