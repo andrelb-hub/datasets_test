@@ -1,0 +1,10 @@
+Dataset: Foreign direct investment: Inward and outward flows and stock, annual
+
+Page Filters: 
+	Direction: Outward 
+	Flow: Flow 
+
+
+Download Type: Pivot
+
+Language: English
